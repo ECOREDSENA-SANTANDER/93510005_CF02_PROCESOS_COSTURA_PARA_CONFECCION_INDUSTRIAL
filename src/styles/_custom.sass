@@ -3,9 +3,9 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 28%
+    left: 55%
+    width: 30%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
@@ -13,94 +13,225 @@
     right: 10%
     width: 20%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 55% 
+  @media only screen and (max-width: 1023px)
+    width: 100%
+
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+  width: 33%
     
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
-
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: white !important   
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #365168
+.barra-avance__boton--regresar span 
+    color: white !important
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+figcaption
+  font-weight: normal
 
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 10% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+      margin-bottom: 10% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
 
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #A20097 !important
 
-
-
-
-
-
-
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
-
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
-
+.cen
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
   
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
 
-  
 
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
+.bloque-texto-g.color-secundario 
+  background-color: #A4B7E9
 
-  
- 
+.tit
+  background-color: #1D4BC9
+  border-radius: 50px 
+  width: fit-content
+  padding: 8px 20px 8px 65px
+  position: relative
+  display: inline-flex
+  align-items: center
+  margin-left: 15px
+  & 
+    h3
+      color: white
+.tit img
+  width: 63px
+  height: 63px
+  position: absolute
+  top: 30%
+  left: -18px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+    top: 40%
+  @media only screen and (max-width: 767px)
+    top: 48%
+    width: 55px
+    height: 55px
+
+
+.bg2
+  background-color:#A4B7E9
+
+.bg3
+  background-color:#6D33A9
+  & p
+    color: white
+
+.bg4
+  background-color: #112D78
+
+.bg5
+  background-color:#6D33A9
+  border-radius: 20px
+
+.bg6
+  background-color: #E8ECFA
+  border-radius: 20px
+
+.bg7
+  background-color: #61005A
+
+
+
+
+//////////////////////////////////////TABLAS////////////////////////////////////
+
+.tabla-a thead 
+  border-top: 6px solid #A20097
+  color: black
+  background-color: #F0EAF6
+.tabla-a th
+  border-color: #F0EAF6
+.tabla-a
+  table
+    width: 100%
+    th, td
+      vertical-align: top
+      text-align: left
+      //border: none
+  table th
+    padding: 16px 15px
+    text-align: left
+  table td 
+    padding: 13px 15px
+
+////////////////////////TABLAS PEQUEÑAS//////////////////////////////
+
+.tabla-a.tabla-peq
+  overflow-x: visible !important
+  overflow: visible !important
+  @media (max-width: 991px)
+    overflow-x: auto !important
+    -webkit-overflow-scrolling: touch !important
+    display: block !important
+  table
+    min-width: auto !important
+    width: 100% !important
+    table-layout: auto !important
+    @media (max-width: 991px)
+      min-width: 500px !important 
+
+.tabla-a.tabla-peq.tabla1
+  tbody
+    td:first-child
+      font-weight: bold
+    //td
+      border-left: 2.5px solid #AFAFAF
+    //td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 13%
+  th:nth-child(2)
+    width: 21%
+  th:nth-child(3)
+    width: 21%
+  th:nth-child(4)
+    width: 23%
+  th:nth-child(5)
+    width: 24%
+
+.tabla-a.tabla-peq.tabla2
+  table th
+    padding: 19px 17px
+    text-align: left
+  table td 
+    padding: 19.2px 17px
+  tbody
+    td:first-child
+      font-weight: bold
+    //td
+      border-left: 2.5px solid #AFAFAF
+    //td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 14%
+  th:nth-child(2)
+    width: 21%
+  th:nth-child(3)
+    width: 23%
+  th:nth-child(4)
+    width: 21%
+  th:nth-child(5)
+    width: 21%
+
+.tabla-a.tabla-peq.tabla3
+  tbody
+    td:first-child
+      font-weight: bold
+    //td
+      border-left: 2.5px solid #AFAFAF
+    //td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 22%
+  th:nth-child(2)
+    width: 39%
+  th:nth-child(3)
+    width: 39%
