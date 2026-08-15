@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Procesos de costura y terminados',
+    Description:
+      'El componente formativo procesos de costura y terminados aborda los fundamentos técnicos necesarios para ejecutar y controlar operaciones de ensamble, costura industrial, ruta operacional y revisión de calidad en prendas de vestir. Sus contenidos integran la unión de piezas, costuras rectas y curvas, cierres, dobladillos, pespuntes, refuerzos, operaciones especializadas, tiempos básicos, flujo de producción y parámetros de acabado, con el propósito de fortalecer la comprensión del proceso productivo en confección industrial.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+      },
+      {
+        clases: ['banner-principal-decorativo-5', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-5.svg',
       },
     ],
   },
@@ -31,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Técnicas de costura industrial',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -97,14 +102,115 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Acabado',
+      significado:
+        'conjunto de operaciones finales aplicadas a la prenda para mejorar su presentación, estabilidad, limpieza y correspondencia con las especificaciones técnicas.',
+    },
+    {
+      termino: 'Bordado básico',
+      significado:
+        'operación especializada que aplica formas, textos, logotipos o detalles ornamentales sobre una superficie textil mediante puntadas controladas.',
+    },
+    {
+      termino: 'Costura de seguridad',
+      significado:
+        'unión reforzada que permite ensamblar piezas y proteger bordes, especialmente en zonas sometidas a tensión, fricción o uso frecuente.',
+    },
+    {
+      termino: 'Costura recta',
+      significado:
+        'puntada lineal continúa utilizada para unir piezas, fijar componentes, elaborar pinzas, realizar pespuntes o desarrollar dobladillos.',
+    },
+    {
+      termino: 'Dobladillo',
+      significado:
+        'terminación de borde realizada mediante uno o varios dobleces del material, fijados con costura para aportar presentación, resistencia y estabilidad.',
+    },
+    {
+      termino: 'Ensamble',
+      significado:
+        'proceso mediante el cual las piezas cortadas de una prenda se integran de forma ordenada hasta conformar el producto confeccionado.',
+    },
+    {
+      termino: 'Especificaciones técnicas',
+      significado:
+        'conjunto de datos definidos en la ficha técnica sobre medidas, materiales, puntadas, costuras, acabados, insumos y presentación final del producto.',
+    },
+    {
+      termino: 'Fileteado',
+      significado:
+        'técnica de costura utilizada para recubrir o asegurar bordes textiles, con el fin de reducir el deshilachado y mejorar la terminación interna.',
+    },
+    {
+      termino: 'Flujo de producción',
+      significado:
+        'recorrido organizado de piezas, insumos y prendas entre los puestos de trabajo, de acuerdo con la secuencia operacional definida.',
+    },
+    {
+      termino: 'Ojal',
+      significado:
+        'abertura terminada que permite el paso del botón y forma parte del sistema de cierre de una prenda.',
+    },
+    {
+      termino: 'Pegado de botón',
+      significado:
+        'operación especializada que fija botones a la prenda mediante puntadas controladas, garantizando alineación, firmeza y funcionalidad.',
+    },
+    {
+      termino: 'Pespunte',
+      significado:
+        'costura visible o controlada que puede cumplir funciones de fijación, refuerzo, asentamiento o acabado decorativo.',
+    },
+    {
+      termino: 'Presillado',
+      significado:
+        'operación de refuerzo concentrado aplicada en puntos de tensión, como bolsillos, pasadores, aberturas, cierres o cargaderas.',
+    },
+    {
+      termino: 'Ruta operacional',
+      significado:
+        'secuencia técnica que organiza las operaciones necesarias para confeccionar una prenda, indicando orden, maquinaria, tiempos y puntos de control.',
+    },
+    {
+      termino: 'Simetría',
+      significado:
+        'correspondencia entre partes relacionadas de una prenda, como mangas, bolsillos, delanteros, costados, ruedos, puños o pretinas.',
     },
   ],
   referencias: [
     {
-      referencia: '---',
-      link: '---',
+      referencia: 'Gilewska, T. (2009). Patronaje: Las bases. Gustavo Gili.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kawamura, Y. (2005). Fashion-ology: an introduction to fashion studies. Berg.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lorenzo, M. R. (2017). Patronaje industrial en textil y piel. Videocinco.',
+      link: '',
+    },
+    {
+      referencia:
+        'Nakamichi, T. (2012). Pattern magic, vol. 1: la magia del patronaje. Gustavo Gili.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (2011). Manual de patronaje básico e interpretación de diseños. Regional Distrito Capital, Centro de Manufactura en Textiles y Cuero.',
+      link: '',
+    },
+    {
+      referencia:
+        'Smith, A. (2014). El gran libro de la costura (Nueva ed.). Blume.',
+      link: '',
+    },
+    {
+      referencia:
+        'Smith, A. (2023). Corte y confección: Prendas de vestir a medida. DK.',
+      link: '',
     },
   ],
   creditos: [
@@ -114,11 +220,11 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '---',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -128,9 +234,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experta Temática',
+          centro: 'Centro Agroturístico – Regional Santander',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico – Regional Santander',
         },
       ],
     },
@@ -138,18 +249,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Marcos Yamid Rubiano Avellaneda',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Pedro Alonso Bolivar González',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -158,13 +269,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Yineth González Quintero',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
