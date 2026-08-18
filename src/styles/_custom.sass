@@ -71,7 +71,16 @@ figcaption
 .titulo-sexto
   border-left: 10px solid
   padding: 6px 0 6px 8px
-  border-left-color: #A20097 !important
+  border-left-color: #DBDCE1 !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #85461A
+  background-color: #D9E5EF
 
 .cen
   display: flex
@@ -133,23 +142,23 @@ figcaption
 
 
 .tit
-  background-color: #1D4BC9
-  border-radius: 50px 
+  background-color: #C9B1A2
+  border-radius: 50px 0px 40px 20px
   width: fit-content
-  padding: 8px 20px 8px 65px
+  padding: 8px 20px 8px 75px
   position: relative
   display: inline-flex
   align-items: center
-  margin-left: 15px
+  margin-left: 0px
   & 
     h3
-      color: white
+      color: #12263F;
 .tit img
   width: 63px
   height: 63px
   position: absolute
-  top: 30%
-  left: -18px 
+  top: 80%
+  left: 0px 
   transform: translateY(-50%)
   object-fit: contain
   z-index: 1
@@ -161,6 +170,31 @@ figcaption
     top: 48%
     width: 55px
     height: 55px
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .p-5.fon
+    padding: 2.5rem !important
+@media only screen and (max-width: 767px)
+  .p-5.fon
+    padding: 1.1rem !important
+.fondo1
+  background: url('../assets/curso/tema1/fd1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+
+
+
+
+
 
 
 
@@ -187,11 +221,11 @@ figcaption
 //////////////////////////////////////TABLAS////////////////////////////////////
 
 .tabla-a thead 
-  border-top: 6px solid #A20097
+  border-top: 6px solid #85461A
   color: black
-  background-color: #F0EAF6
+  background-color: #D9E5EF
 .tabla-a th
-  border-color: #F0EAF6
+  border-color: #D9E5EF
 .tabla-a
   table
     width: 100%
@@ -203,7 +237,27 @@ figcaption
     padding: 16px 15px
     text-align: left
   table td 
-    padding: 13px 15px
+    padding: 15px 15px
+
+.tabla-a.tab1
+  tbody
+    td:first-child
+      font-weight: bold
+    //td
+      border-left: 2.5px solid #AFAFAF
+    //td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 22%
+  th:nth-child(2)
+    width: 38%
+  th:nth-child(3)
+    width: 40%
+
+
+
+
+
 
 ////////////////////////TABLAS PEQUEÑAS//////////////////////////////
 

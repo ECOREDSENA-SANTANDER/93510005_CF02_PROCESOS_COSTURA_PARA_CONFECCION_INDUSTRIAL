@@ -41,7 +41,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Costuras industriales básicas y de seguridad',
             hash: 't_1_1',
           },
         ],
@@ -52,12 +52,26 @@ export default {
         numero: '2',
         titulo: 'Tema 2',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Costuras industriales básicas y de seguridad',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Tema 3',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Costuras industriales básicas y de seguridad',
+            hash: 't_1_1',
+          },
+        ],
       },
     ],
     subMenu: [
