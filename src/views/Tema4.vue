@@ -28,7 +28,7 @@
       h4.mb-3 Alcance del control de calidad en confección
       p.mb-0 El control de calidad en confección relaciona la prenda terminada con las especificaciones previamente definidas. Su propósito es verificar que medidas, costuras, acabados, piezas, insumos y funcionalidad correspondan con la ficha técnica, la muestra aprobada y los estándares internos de producción.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-9
         .titulo-sexto.mb-4
           h5 Tabla 13.
@@ -68,19 +68,19 @@
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema4/5.png')
     
-    p.mb-0 Los parámetros de calidad permiten identificar conformidades y no conformidades en la prenda. Una costura desviada, una pieza asimétrica, un cierre defectuoso, un botón mal ubicado o un acabado con hilos sueltos pueden afectar la presentación, la durabilidad o el uso del producto. La revisión sistemática evita que estos defectos avancen dentro de la línea de producción y reduce reprocesos, devoluciones o pérdidas de material.
+    p.mb-0(data-aos="fade-left") Los parámetros de calidad permiten identificar conformidades y no conformidades en la prenda. Una costura desviada, una pieza asimétrica, un cierre defectuoso, un botón mal ubicado o un acabado con hilos sueltos pueden afectar la presentación, la durabilidad o el uso del producto. La revisión sistemática evita que estos defectos avancen dentro de la línea de producción y reduce reprocesos, devoluciones o pérdidas de material.
 
     separador
     #t_4_1.titulo-segundo.mb-5
       h2 4.1 Simetría, limpieza y funcionalidad de la prenda
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema4/6.png')
 
-    p.mb-5 Entre los criterios más relevantes para valorar una prenda terminada se encuentran la simetría, la limpieza y la funcionalidad. Estos parámetros permiten revisar la correspondencia formal del producto, la calidad de su presentación y el desempeño real de sus componentes durante el uso. 
+    p.mb-5(data-aos="fade-left") Entre los criterios más relevantes para valorar una prenda terminada se encuentran la simetría, la limpieza y la funcionalidad. Estos parámetros permiten revisar la correspondencia formal del producto, la calidad de su presentación y el desempeño real de sus componentes durante el uso. 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         p.mb-4 La simetría hace referencia a la equivalencia entre partes relacionadas de la prenda. En una camisa, por ejemplo, involucra la correspondencia entre hombros, mangas, puños, delanteros, cuello y ruedo. En un pantalón, comprende la igualdad entre largos, piernas, bolsillos, pasadores, tiro y pretina. La falta de simetría puede originarse en errores de corte, desplazamiento durante el ensamble, márgenes irregulares o planchado inadecuado. 
         .bg5.p-4.mb-0 
@@ -89,7 +89,7 @@
       .col-lg-4.d-none.d-lg-block
         img.img-t.img-a(src='@/assets/curso/tema4/7.png')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 14.
@@ -129,7 +129,7 @@
                 td Tensión en sisas, tiro incómodo, abertura insuficiente o restricción de movimiento.
                 td Comparar con medidas, prueba de ajuste o muestra aprobada.
 
-    .cajon.color-acento-b.p-4.mb-0(data-aos="fade-left")
+    .cajon.color-acento-b.p-4.mb-0(data-aos="fade-right")
       h4.mb-3 Nota
       p.mb-0 La simetría no implica que todas las prendas deban ser idénticas en ambos lados cuando el diseño contempla asimetrías. En estos casos, la revisión se realiza con base en la ficha técnica y la muestra aprobada, verificando que la asimetría corresponda a una decisión de diseño y no a un error de confección.
 
@@ -147,9 +147,9 @@
         br
         p.mb-0 La precisión del acabado se relaciona con la regularidad de los detalles visibles y no visibles de la prenda. Un dobladillo con ancho constante, un pespunte paralelo al borde, una vista bien asentada, un cuello simétrico, una pretina estable o una etiqueta ubicada correctamente evidencian control técnico. Por el contrario, un acabado torcido, abultado, incompleto o con tensión irregular puede afectar la apariencia y generar rechazo en inspección.
 
-    p.mb-5 El cumplimiento de especificaciones técnicas consiste en comparar el producto terminado con los datos registrados en la ficha técnica. Esta comparación incluye talla, medidas, materiales, color, tipo de costura, longitud de puntada, ubicación de insumos, tipo de cierre, acabado de bordes, etiquetas, empaque y demás requisitos definidos para la referencia. La ficha técnica funciona como documento de control y evita interpretaciones subjetivas durante la evaluación.
+    p.mb-5(data-aos="fade-left") El cumplimiento de especificaciones técnicas consiste en comparar el producto terminado con los datos registrados en la ficha técnica. Esta comparación incluye talla, medidas, materiales, color, tipo de costura, longitud de puntada, ubicación de insumos, tipo de cierre, acabado de bordes, etiquetas, empaque y demás requisitos definidos para la referencia. La ficha técnica funciona como documento de control y evita interpretaciones subjetivas durante la evaluación.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema4/9.png')
       .col-lg-8
@@ -193,12 +193,12 @@
       h4.mb-3 Ficha técnica y muestra aprobada
       p.mb-0 La ficha técnica indica las condiciones que debe cumplir la prenda; la muestra aprobada sirve como referente físico de comparación. La revisión final integra ambos elementos para confirmar que el producto terminado conserva medidas, materiales, acabados, funcionalidad y presentación conforme a lo definido para la producción.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 16.
           | Fuentes de control en procesos de calidad de prendas
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-9
         .tabla-a.tab16.mb-0
           table
@@ -227,7 +227,7 @@
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema4/10.png')
 
-    p.mb-0 La precisión del acabado y el cumplimiento de especificaciones técnicas cierran el proceso de confección con criterios verificables. Esta revisión permite entregar productos consistentes, reducir reclamaciones y conservar la trazabilidad entre diseño, producción y control de calidad.
+    p.mb-0(data-aos="fade-right") La precisión del acabado y el cumplimiento de especificaciones técnicas cierran el proceso de confección con criterios verificables. Esta revisión permite entregar productos consistentes, reducir reclamaciones y conservar la trazabilidad entre diseño, producción y control de calidad.
 
 
 </template>

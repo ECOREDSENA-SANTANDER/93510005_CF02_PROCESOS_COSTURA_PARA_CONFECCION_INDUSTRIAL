@@ -17,7 +17,7 @@
         br
         p.mb-0 La eficiencia del ensamble depende de la correcta relación entre diseño, patronaje, corte, maquinaria, tipo de puntada, habilidad operativa y ruta de producción. Una pieza bien cortada puede perder calidad si el ensamble no conserva simetría, tensión adecuada, alineación y limpieza en la unión. Por esta razón, el proceso requiere control permanente desde las primeras operaciones hasta las terminaciones finales.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/tema2/2.png')
       .col-lg-4.pe-lg-0.d-none.d-lg-block
@@ -28,12 +28,12 @@
         .bg3.p-4
           p.mb-0.mx-lg-3.my-lg-2 El ensamble convierte piezas independientes en una estructura textil funcional. Su calidad no depende únicamente de unir partes, sino de mantener proporciones, respetar marcas de confección, conservar medidas, proteger zonas de tensión y asegurar que la prenda responda al diseño aprobado en la ficha técnica.
     
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 4.
           | Aspectos principales de ensamble
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .tabla-a.tab4.mb-0
           table
@@ -66,7 +66,7 @@
       .col-lg-4.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/tema2/4.png')
 
-    p.mb-0 El ensamble constituye una fase determinante para la calidad final, porque conecta la información técnica del diseño con la ejecución real en planta. Una operación inicial mal ejecutada puede afectar operaciones posteriores, alterar medidas o comprometer la apariencia y funcionalidad del producto terminado.
+    p.mb-0(data-aos="fade-left") El ensamble constituye una fase determinante para la calidad final, porque conecta la información técnica del diseño con la ejecución real en planta. Una operación inicial mal ejecutada puede afectar operaciones posteriores, alterar medidas o comprometer la apariencia y funcionalidad del producto terminado.
 
     separador
     #t_2_1.titulo-segundo.mb-5
@@ -84,9 +84,9 @@
             br
             p.mb-0 El control del ensamble inicia con la verificación de piezas completas, correspondencia entre tallas, identificación de derecho y revés del material, coincidencia de marcas y revisión de posibles defectos del corte. Posteriormente, durante la unión, se regulan la tensión del hilo, la longitud de puntada, el margen de costura y la alineación de las piezas. Estas variables permiten conservar uniformidad entre unidades producidas.
     
-    p.mb-5 En productos industriales, el ensamble no se ejecuta de forma aislada. Cada operación depende de la anterior y prepara la siguiente. La unión de hombros, costados, mangas, cuellos, pretinas, bolsillos o piezas internas requiere una secuencia coherente para evitar acumulación de volumen, dificultad de manipulación o pérdida de forma.
+    p.mb-5(data-aos="fade-right") En productos industriales, el ensamble no se ejecuta de forma aislada. Cada operación depende de la anterior y prepara la siguiente. La unión de hombros, costados, mangas, cuellos, pretinas, bolsillos o piezas internas requiere una secuencia coherente para evitar acumulación de volumen, dificultad de manipulación o pérdida de forma.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/6.png')
       .col-lg-8
@@ -126,7 +126,7 @@
                 td Inspección de la operación antes de continuar el flujo productivo.
                 td Detección temprana de fallas y reducción de reprocesos.
 
-    .cajon.color-acento-b.p-4.mb-0(data-aos="fade-left")
+    .cajon.color-acento-b.p-4.mb-0(data-aos="fade-right")
       h4.mb-3 Nota
       p.mb-0 La unión de piezas requiere especial atención en materiales elásticos, telas livianas, tejidos con dirección, cuadros, rayas o estampados continuos. En estos casos, el control de alineación y arrastre adquiere mayor importancia para evitar diferencias perceptibles entre las partes de la prenda.
 
@@ -144,9 +144,9 @@
         br
         p.mb-0 La costura recta se utiliza en uniones lineales, fijación de piezas, pespuntes, pinzas y dobladillos. Su ejecución requiere mantener una trayectoria constante y un margen uniforme. La costura curva, en cambio, aparece en sisas, escotes, tiros, copas de manga, ruedos circulares y piezas anatómicas; su control exige desplazamiento gradual del material para evitar quiebres, frunces o deformaciones en la línea de unión.
 
-    p.mb-5 La instalación de cierres incorpora un componente funcional al producto. Esta operación requiere correspondencia entre la longitud del cierre, la abertura de la prenda, la ubicación de topes, la simetría entre lados y la limpieza del pespunte. Los dobladillos, por su parte, permiten finalizar bordes inferiores o laterales mediante dobleces controlados que aportan presentación, resistencia y protección del material.
+    p.mb-5(data-aos="fade-right") La instalación de cierres incorpora un componente funcional al producto. Esta operación requiere correspondencia entre la longitud del cierre, la abertura de la prenda, la ubicación de topes, la simetría entre lados y la limpieza del pespunte. Los dobladillos, por su parte, permiten finalizar bordes inferiores o laterales mediante dobleces controlados que aportan presentación, resistencia y protección del material.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 6.
@@ -181,7 +181,7 @@
                 td Ancho uniforme, doblez estable y costura paralela al borde.
                 td Ondulación, torcido, medida variable o arrastre del material.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-4.pe-lg-0
         .bg2.p-4.mb-0
           h4.mb-0.mx-lg-3.my-lg-0 Relación entre operación y tipo de prenda
@@ -196,7 +196,7 @@
     #t_2_3.titulo-segundo.mb-5
       h2 2.3 Pespuntes, refuerzos y terminaciones funcionales
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.mb-lg-0.mb-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/10.png')
       .col-lg-7
@@ -208,10 +208,10 @@
         p.mb-4 El pespunte corresponde a una costura visible o controlada que puede cumplir función de fijación, asentamiento, refuerzo o acabado decorativo. Se emplea en cuellos, puños, pretinas, bolsillos, tapas, vistas, cierres, cortes y bordes. Su regularidad influye en la apariencia final, debido a que suele quedar expuesto en la superficie del producto.
         p.mb-0 Los refuerzos se aplican en puntos sometidos a tensión, fricción o uso repetido. Pueden realizarse mediante presillas, doble costura, entretelas, remates, parches internos, costuras adicionales o materiales de soporte. Su propósito consiste en evitar rupturas, deformaciones o desprendimientos durante el uso de la prenda.
 
-    .cajon.color-acento-b.p-4.mb-5(data-aos="fade-left")
+    .cajon.color-acento-b.p-4.mb-5(data-aos="fade-right")
       p.mb-0 Las terminaciones funcionales protegen bordes, estabilizan aberturas, mejoran el contacto con el cuerpo y facilitan el uso del producto. En esta categoría se incluyen remates, vistas, sesgos, vivos, ruedos, atraques, acabados internos y soluciones constructivas que aseguran limpieza, comodidad y durabilidad.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 7.
@@ -260,7 +260,7 @@
       h4.mb-3 Nota
       p.mb-0 Los pespuntes y terminaciones visibles requieren revisión más estricta porque forman parte de la presentación externa del producto. Los refuerzos, aunque en algunos casos permanecen en zonas internas, inciden directamente en la resistencia y vida útil de la prenda.
     
-    p.mb-5 A continuación, se invita a seguir el proceso completo de confección de una camisa, pantalón sudadera y #[b montaje de cremallera, en los que podrá observar el paso a paso:]
+    p.mb-5(data-aos="fade-right") A continuación, se invita a seguir el proceso completo de confección de una camisa, pantalón sudadera y #[b montaje de cremallera, en los que podrá observar el paso a paso:]
 
     .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -434,7 +434,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Proceso de montaje de cremallera
 
-    .row.justify-content-center.align-items-center           
+    .row.justify-content-center.align-items-center(data-aos="fade-right")          
       .col-lg-12
         figure
           .video

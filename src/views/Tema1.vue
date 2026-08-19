@@ -17,9 +17,9 @@
             p.mb-4 En la confección industrial, las técnicas de costura constituyen el conjunto de procedimientos empleados para unir, asegurar, reforzar, decorar o terminar las piezas que conforman una prenda o producto textil. Su aplicación responde a criterios técnicos relacionados con el tipo de material, la función de la costura, la resistencia requerida, la apariencia del acabado, la maquinaria disponible y las especificaciones establecidas en la ficha técnica.
             p.mb-0 Cada técnica de costura cumple una función específica dentro del proceso productivo. Algunas operaciones permiten unir piezas principales; otras protegen bordes, refuerzan zonas sometidas a tensión, aseguran componentes funcionales o aportan terminaciones visibles que inciden en la calidad percibida del producto. La selección adecuada de la técnica influye directamente en la durabilidad, la comodidad, la estabilidad dimensional y la presentación final de la prenda.
 
-    p.mb-5 La costura industrial se diferencia de la costura artesanal por su nivel de estandarización, repetibilidad y control operativo. En un entorno productivo, las operaciones se ejecutan siguiendo rutas previamente definidas, máquinas especializadas, parámetros de puntada, márgenes de costura, tiempos básicos y criterios de inspección. Esta organización permite mantener uniformidad entre unidades producidas y reducir variaciones que puedan generar reprocesos o no conformidades.
+    p.mb-5(data-aos="fade-right") La costura industrial se diferencia de la costura artesanal por su nivel de estandarización, repetibilidad y control operativo. En un entorno productivo, las operaciones se ejecutan siguiendo rutas previamente definidas, máquinas especializadas, parámetros de puntada, márgenes de costura, tiempos básicos y criterios de inspección. Esta organización permite mantener uniformidad entre unidades producidas y reducir variaciones que puedan generar reprocesos o no conformidades.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/tema1/3.png')
       .col-lg-4.pe-lg-0.d-none.d-lg-block
@@ -80,17 +80,17 @@
                 td Aplicar elementos gráficos o decorativos mediante puntadas programadas o controladas.
                 td Logos, iniciales, marcas, detalles ornamentales e identificación institucional.
 
-    p.mb-0 En una prenda industrial, la calidad final depende tanto del diseño como de la correcta ejecución de las operaciones que aseguran unión, resistencia, funcionalidad y acabado.
+    p.mb-0(data-aos="fade-left") En una prenda industrial, la calidad final depende tanto del diseño como de la correcta ejecución de las operaciones que aseguran unión, resistencia, funcionalidad y acabado.
 
     separador
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Costuras industriales básicas y de seguridad
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema1/5.png')
 
-    p.mb-5 Las costuras industriales básicas y de seguridad constituyen algunas de las operaciones más utilizadas en la confección de prendas, ya que permiten realizar el ensamble estructural de las piezas y garantizar la estabilidad de las uniones durante el uso del producto. Su aplicación varía según el diseño de la prenda, las características del material y los requerimientos de resistencia establecidos en el proceso productivo.
+    p.mb-5(data-aos="fade-left") Las costuras industriales básicas y de seguridad constituyen algunas de las operaciones más utilizadas en la confección de prendas, ya que permiten realizar el ensamble estructural de las piezas y garantizar la estabilidad de las uniones durante el uso del producto. Su aplicación varía según el diseño de la prenda, las características del material y los requerimientos de resistencia establecidos en el proceso productivo.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.mb-lg-0.mb-4.d-none.d-lg-block
@@ -106,7 +106,7 @@
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-left")
       p.mb-0 Además de su función estructural, estas costuras sirven como referencia para la inspección de calidad, ya que permiten verificar aspectos como alineación, regularidad de puntada, resistencia y presentación general del ensamble. Un adecuado control de estas características contribuye a reducir defectos y asegurar el cumplimiento de los estándares definidos para la prenda.
     
-    p.mb-5 A continuación, se relacionan los procesos de costura básicos en el manejo de maquinaria industrial: 
+    p.mb-5(data-aos="fade-right") A continuación, se relacionan los procesos de costura básicos en el manejo de maquinaria industrial: 
 
     .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -186,19 +186,19 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Operaciones de fileteadora
 
-    .row.justify-content-center.align-items-center.mb-5(titulo="")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/giII2qtE8ig?si=9Xmoyot0dvhQbVTa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Operaciones básicas para el manejo de máquina fileteadora Paso 1 Operación para unir piezas, en
 
-    .row.justify-content-center.align-items-center.mb-5(titulo="")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/vQuwUriVIhk?si=lo__zpIRTLvzePG6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Paso 2 Operación para hacer filete rect
 
-    .row.justify-content-center.align-items-center.mb-5(titulo="")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/FMZdQb13rXU?si=y4VPVvqv6eN9oF8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -311,7 +311,7 @@
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Operaciones especializadas: presillado, pegado de botón, ojal y bordado básico
 
-    p.mb-5 En la producción industrial de prendas, algunas operaciones requieren máquinas, aditamentos o ajustes específicos debido a la precisión funcional que aportan al producto terminado. El presillado, el pegado de botón, la elaboración de ojales y el bordado básico forman parte de este grupo, ya que intervienen en zonas puntuales de la prenda donde se requiere fijación, apertura, refuerzo, identificación o acabado decorativo.
+    p.mb-5(data-aos="fade-right") En la producción industrial de prendas, algunas operaciones requieren máquinas, aditamentos o ajustes específicos debido a la precisión funcional que aportan al producto terminado. El presillado, el pegado de botón, la elaboración de ojales y el bordado básico forman parte de este grupo, ya que intervienen en zonas puntuales de la prenda donde se requiere fijación, apertura, refuerzo, identificación o acabado decorativo.
 
     .bloque-texto-g.color-secundario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
@@ -323,11 +323,11 @@
         br
         p.mb-0 A nivel productivo, las operaciones especializadas suelen ubicarse en fases intermedias o finales del ensamble, según la estructura de la prenda. En camisas, pantalones, chaquetas, uniformes, prendas infantiles, dotaciones institucionales y productos deportivos, estas operaciones cumplen funciones específicas relacionadas con cierre, ajuste, refuerzo, marcación o diferenciación de marca
 
-    .cajon.color-acento-b.p-4.mb-5(data-aos="fade-left")
+    .cajon.color-acento-b.p-4.mb-5(data-aos="fade-right")
       h4.mb-3 Función de las operaciones especializadas
       p.mb-0 Las operaciones especializadas aportan soluciones técnicas localizadas dentro de la prenda. El presillado refuerza zonas de tensión; el pegado de botón asegura sistemas de cierre; el ojal permite el paso del botón y estabiliza la abertura; el bordado básico incorpora elementos gráficos, decorativos o institucionales mediante puntadas controladas. Su correcta aplicación fortalece la funcionalidad del producto y mejora su acabado general.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 2.
@@ -433,9 +433,9 @@
                 td Ubicación, densidad, tensión, color, soporte y definición del diseño.
                 td Arrugas, hilos sueltos, deformación, saltos o pérdida de nitidez.
                 td Revisar frente y reverso, estabilidad del textil y fidelidad al diseño aprobado.
-    p.mb-5 La incorporación de operaciones especializadas exige coordinación entre preparación, maquinaria, insumos y control de calidad. Su aporte dentro de la prenda se concentra en puntos específicos, pero su impacto se refleja en el desempeño del cierre, la resistencia de zonas críticas, la identificación del producto y la percepción técnica del acabado final.
+    p.mb-5(data-aos="fade-left") La incorporación de operaciones especializadas exige coordinación entre preparación, maquinaria, insumos y control de calidad. Su aporte dentro de la prenda se concentra en puntos específicos, pero su impacto se refleja en el desempeño del cierre, la resistencia de zonas críticas, la identificación del producto y la percepción técnica del acabado final.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg4.mb-0.p-lg-5.p-4
           .row.justify-content-center.align-items-center.mb-0
@@ -448,7 +448,7 @@
                       | Bordado realizado con una máquina de uso familiar
                     img.img-t.img-a(src='@/assets/curso/tema1/13.png',alt='Máquina bordadora computarizada utilizada para realizar diseños decorativos automatizados sobre diferentes tipos de tejidos.')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .bg4.mb-0.p-lg-5.p-4
           .row.justify-content-center.align-items-center.mb-0
@@ -461,7 +461,7 @@
                       | Bordado realizado con una máquina industrial de un cabezal
                     img.img-t.img-a(src='@/assets/curso/tema1/14.png',alt='Máquina bordadora industrial de una cabeza con múltiples agujas, diseñada para realizar bordados automatizados sobre prendas de vestir.')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg4.mb-0.p-lg-5.p-4
           .row.justify-content-center.align-items-center.mb-0
@@ -477,7 +477,7 @@
     .cajon.color-acento-b.p-4.mb-5(data-aos="fade-left")
       p.mb-0 Antes de continuar con el siguiente tema, se invita a consultar el siguiente video, en el que se presenta una explicación práctica sobre las principales operaciones especializadas utilizadas en la confección industrial. A través de este recurso podrá comprender la función del presillado, el pegado de botón, la elaboración de ojales y el bordado básico, así como la importancia de ejecutar cada operación conforme a las especificaciones técnicas y los criterios de calidad establecidos. Este material fortalecerá los conocimientos desarrollados en este apartado y facilitará la comprensión de su aplicación dentro del proceso productivo.
 
-    .row.justify-content-center.align-items-center           
+    .row.justify-content-center.align-items-center(data-aos="fade-right")           
       .col-lg-12
         figure
           .video

@@ -17,18 +17,18 @@
             p.mb-4 La ruta operacional organiza el recorrido técnico que sigue una prenda desde las primeras operaciones de preparación hasta las fases finales de ensamble, acabado e inspección. Su estructura permite ordenar las actividades de confección de acuerdo con la lógica constructiva del producto, la disponibilidad de maquinaria, la especialización del personal operativo y los criterios de calidad definidos para cada referencia. 
             p.mb-0 Este instrumento cumple una función central dentro de la planeación productiva, porque transforma la ficha técnica y el diseño de la prenda en una secuencia ejecutable. En ella se registran las operaciones necesarias, el orden de intervención, la máquina o equipo requerido, el tiempo estimado, los puntos de control y la relación entre una actividad y la siguiente. Una ruta bien estructurada reduce improvisaciones en planta y facilita el seguimiento del proceso.
 
-    p.mb-5 La ruta operacional también permite identificar cuellos de botella, tiempos improductivos, operaciones repetidas o movimientos innecesarios. Su análisis favorece la organización del flujo de producción y aporta información para distribuir cargas de trabajo, definir capacidades por línea, programar entregas y mantener continuidad entre áreas como corte, preparación, ensamble, terminación, revisión y empaque.
+    p.mb-5(data-aos="fade-right") La ruta operacional también permite identificar cuellos de botella, tiempos improductivos, operaciones repetidas o movimientos innecesarios. Su análisis favorece la organización del flujo de producción y aporta información para distribuir cargas de trabajo, definir capacidades por línea, programar entregas y mantener continuidad entre áreas como corte, preparación, ensamble, terminación, revisión y empaque.
 
     .cajon.color-acento-b.p-4.mb-5(data-aos="fade-left")
       h4.mb-3 Función de la ruta operacional
       p.mb-0 La ruta operacional traduce el diseño de la prenda en una secuencia productiva verificable. No solo indica qué operación se realiza, sino en qué orden se ejecuta, con qué recurso técnico, en qué tiempo aproximado y bajo qué criterio de control. Esta información permite coordinar producción, calidad y eficiencia dentro de la planta.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 8.
           | Elementos de la ruta operacional de confección
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-9
         .tabla-a.tab1.mb-0
           table
@@ -83,12 +83,12 @@
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-left")
       p.mb-0 En productos de confección seriada, la secuencia no se organiza por preferencia individual, sino por eficiencia técnica y control del resultado. Una alteración en el orden puede afectar medidas, generar reprocesos o impedir que determinadas piezas se unan correctamente. Por ejemplo, pegar una manga antes de cerrar ciertas uniones puede ser conveniente en algunos diseños; en otros, puede dificultar la manipulación o alterar el ajuste de la sisa.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 9.
           | Secuencia y operación en procesos de confección
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-9
         .tabla-a.tab1.mb-0
           table
@@ -121,7 +121,7 @@
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema3/6.png')
 
-    .cajon.color-acento-b.p-4.mb-0(data-aos="fade-left")
+    .cajon.color-acento-b.p-4.mb-0(data-aos="fade-right")
       h4.mb-3 Función de la ruta operacional
       p.mb-0 El orden de ensamble varía según la tipología de prenda. Una camisa, un pantalón, una chaqueta o una prenda deportiva presentan secuencias diferentes, aunque puedan compartir operaciones como costura recta, fileteado, pegado de botón, ojal o dobladillo.
 
@@ -141,9 +141,9 @@
             br
             p.mb-0 Su determinación puede apoyarse en observación directa, cronometraje, registros históricos, estudio de métodos o estándares internos de la empresa. Para que el tiempo básico sea útil, requiere asociarse con una operación específica y con condiciones claras de ejecución: tipo de prenda, material, longitud de costura, complejidad del ensamble, nivel de acabado y equipo empleado.
 
-    p.mb-5 El flujo de producción describe la forma en que las piezas, insumos y prendas avanzan entre puestos de trabajo. Un flujo ordenado reduce esperas, traslados innecesarios, acumulación de piezas en proceso y desbalance entre operaciones. En plantas industriales, este flujo puede organizarse por módulos, líneas, células de trabajo, lotes o sistemas mixtos, según el volumen de producción y la variedad de referencias.
+    p.mb-5(data-aos="fade-right") El flujo de producción describe la forma en que las piezas, insumos y prendas avanzan entre puestos de trabajo. Un flujo ordenado reduce esperas, traslados innecesarios, acumulación de piezas en proceso y desbalance entre operaciones. En plantas industriales, este flujo puede organizarse por módulos, líneas, células de trabajo, lotes o sistemas mixtos, según el volumen de producción y la variedad de referencias.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema3/8.png')
       .col-lg-9
@@ -183,16 +183,16 @@
                 td Velocidad con la que avanza la línea según capacidad instalada.
                 td Orienta programación diaria y cumplimiento de metas.
 
-    .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-left")
+    .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-right")
       h4.mb-3 Ejemplo aplicado
       p.mb-0 Interpretación de una ruta operacional para identificar las operaciones, la maquinaria, los tiempos básicos y los puntos de control del proceso de confección.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 11.
           | Ejemplo de una ruta operacional
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-9
         .tabla-a.tab11.mb-0
           table
@@ -231,17 +231,17 @@
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema3/9.png')
 
-    p.mb-0 Los tiempos básicos y el flujo productivo aportan información para organizar recursos con mayor precisión. Al relacionar duración, orden y desplazamiento de piezas, la planta puede anticipar retrasos y ajustar la operación sin afectar la calidad del producto.
+    p.mb-0(data-aos="fade-left") Los tiempos básicos y el flujo productivo aportan información para organizar recursos con mayor precisión. Al relacionar duración, orden y desplazamiento de piezas, la planta puede anticipar retrasos y ajustar la operación sin afectar la calidad del producto.
 
     separador
     #t_3_3.titulo-segundo.mb-5
       h2 3.3 Relación entre ruta operacional, eficiencia y continuidad del proceso
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema3/10.png')
     
-    p.mb-5 La eficiencia productiva no depende únicamente de la velocidad de cada operación. También se relaciona con la forma en que la ruta operacional articula personas, máquinas, materiales, tiempos, controles y secuencias. Una línea puede contar con personal calificado y maquinaria suficiente, pero presentar bajo rendimiento si las operaciones están mal distribuidas o si el flujo se interrumpe por falta de insumos, piezas incompletas o reprocesos. 
+    p.mb-5(data-aos="fade-left") La eficiencia productiva no depende únicamente de la velocidad de cada operación. También se relaciona con la forma en que la ruta operacional articula personas, máquinas, materiales, tiempos, controles y secuencias. Una línea puede contar con personal calificado y maquinaria suficiente, pero presentar bajo rendimiento si las operaciones están mal distribuidas o si el flujo se interrumpe por falta de insumos, piezas incompletas o reprocesos. 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.mb-lg-0.mb-4.d-none.d-lg-block
@@ -254,12 +254,12 @@
             p.mb-0 La continuidad del proceso se logra cuando cada operación entrega condiciones adecuadas para la siguiente. Esto implica que las piezas lleguen completas, identificadas, revisadas y en el orden correspondiente. También requiere que las máquinas estén disponibles, los insumos preparados y los criterios de calidad definidos desde el inicio de la ruta.
         p.mb-0 La ruta operacional funciona como un instrumento de coordinación. Su correcta aplicación permite reducir tiempos muertos, controlar la acumulación de producto en proceso, equilibrar cargas de trabajo y mejorar la comunicación entre áreas. Además, facilita la detección de puntos críticos donde se generan demoras, defectos, repeticiones o interrupciones.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 12.
           | Relación operativa y riesgos en procesos de confección
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-9
         .tabla-a.tab12.mb-0
           table
@@ -300,7 +300,7 @@
       h4.mb-3 Señales de una ruta con baja continuidad
       p.mb-0 Una ruta operacional presenta dificultades cuando las piezas se acumulan entre puestos, las personas operarias esperan insumos, una máquina concentra demasiadas operaciones, aparecen reprocesos frecuentes o la inspección final detecta fallas originadas en fases iniciales. Estas señales permiten intervenir el proceso antes de que el retraso afecte la entrega del lote completo.
 
-    p.mb-0 La articulación entre ruta operacional, eficiencia y continuidad fortalece la organización de la planta, dado que una secuencia clara, tiempos definidos y puntos de control oportunos permiten que la producción avance con regularidad, mantenga trazabilidad y conserve las condiciones técnicas requeridas para la prenda.
+    p.mb-0(data-aos="fade-right") La articulación entre ruta operacional, eficiencia y continuidad fortalece la organización de la planta, dado que una secuencia clara, tiempos definidos y puntos de control oportunos permiten que la producción avance con regularidad, mantenga trazabilidad y conserve las condiciones técnicas requeridas para la prenda.
 
 
 </template>
