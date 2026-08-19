@@ -44,32 +44,77 @@ export default {
             titulo: 'Costuras industriales básicas y de seguridad',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo:
+              'Operaciones especializadas: presillado, pegado de botón, ojal y bordado básico',
+            hash: 't_1_2',
+          },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Operaciones de ensamble en confección industrial',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Costuras industriales básicas y de seguridad',
-            hash: 't_1_1',
+            numero: '2.1',
+            titulo: 'Unión de piezas y control del ensamble',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Costuras rectas, curvas, cierres y dobladillos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Pespuntes, refuerzos y terminaciones funcionales',
+            hash: 't_2_3',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Ruta operacional en confección industrial',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Costuras industriales básicas y de seguridad',
-            hash: 't_1_1',
+            numero: '3.1',
+            titulo: 'Secuencia de operaciones y orden de ensamble',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tiempos básicos y flujo de producción',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Relación entre ruta operacional, eficiencia y continuidad del proceso',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Parámetros de calidad en confección',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Simetría, limpieza y funcionalidad de la prenda',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              'Precisión del acabado y cumplimiento de especificaciones técnicas',
+            hash: 't_4_2',
           },
         ],
       },
