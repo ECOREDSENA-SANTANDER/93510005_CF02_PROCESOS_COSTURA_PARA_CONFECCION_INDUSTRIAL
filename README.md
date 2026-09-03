@@ -1,3 +1,3 @@
 # URL WEB
 
-[https://ecoredsena-santander.github.io/93510005_CF02_PROCESOS_COSTURA_PARA_CONFECCION_INDUSTRIAL/](https://ecoredsena-santander.github.io/93510005_CF02_PROCESOS_COSTURA_PARA_CONFECCION_INDUSTRIAL/)
+[https://ecoredsena-santander.github.io/93510513_CF02_PROCESOS_COSTURA_PARA_CONFECCION_INDUSTRIAL/](https://ecoredsena-santander.github.io/93510513_CF02_PROCESOS_COSTURA_PARA_CONFECCION_INDUSTRIAL/)
