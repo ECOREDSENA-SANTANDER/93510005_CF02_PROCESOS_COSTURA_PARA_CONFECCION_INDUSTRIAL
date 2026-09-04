@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción -----PRUEBA------CAMBIO-----CODIGO-----
+      h1 Introducción
     
     p.mb-5(data-aos="fade-right") La confección industrial requiere procesos organizados que permitan transformar piezas textiles en prendas terminadas con condiciones de calidad, funcionalidad y presentación acordes con las especificaciones técnicas. En este contexto, las operaciones de costura y terminado ocupan un lugar central dentro de la producción, ya que articulan el ensamble de piezas, la aplicación de puntadas, el uso de maquinaria especializada, el control de acabados y la verificación del producto antes de su entrega.
 
